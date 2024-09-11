@@ -1,0 +1,976 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+    
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #0f1424;
+    display: flex;
+}
+
+.father{
+    width: 250px;
+    height: 400px;
+    background-color: #1c1f4a;
+    border-radius: 15px;
+    margin-top: 160px ;
+    margin-left: 15%;
+}
+
+.son{
+    width: 250px;
+    height: 250px;
+    background-color: #5847eb;
+    border-radius: 15px;
+}
+
+.photo1{
+    width: 25%;
+    height: 60px;
+    margin-top: 15%;
+    margin-left: 10%;
+    border: 1px solid white;
+    border-radius: 120px;
+}
+
+.text1{
+    margin-left: 10%;
+    margin-top: 5%;
+    color: rgb(207, 207, 207);
+    font-size:small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    opacity: 0.75;
+}
+
+.text2{
+    margin-left: 10%;
+    margin-top: 5%;
+    color: white;
+    font-family: "Rubik", sans-serif;
+    font-weight: 200;
+}
+
+li{
+    margin-top: 10%;
+}
+.link1{
+    margin-left: 10%;
+    margin-top: 10%;
+    text-decoration: none;
+    color: gray;
+    font-family: "Rubik", sans-serif;
+}
+.link1:hover{
+    color: white;
+}
+
+/* ************************************************************************************************ */
+
+.father2{
+    width: 809px;
+    height: 400px;
+    margin-top: 160px ;
+    margin-left: 30px;
+    display: block;
+}
+
+.soon{
+    display: flex;
+}
+
+.son1{
+    width:250px;
+    height: 190px;
+    background-image: linear-gradient(to bottom , #ff8c66 , #1c1f4a );
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+.icon1{
+    width: 80px;
+    height: 80px;
+    rotate: 50deg;
+    position: absolute;
+    top: -5px;
+    right: 25px;
+    fill: #d96c47;
+}
+.son11{
+    width:250px;
+    height: 145px;
+    position: absolute;
+    bottom: 0;
+    background-color: #1c1f4a;
+    border-radius: 13px;
+}
+.son11:hover{
+    background-color: #33387a;
+}
+
+.text3{
+    font-family: "Rubik", sans-serif;
+    color: white;
+    font-size: large;
+    margin-top: 25px;
+    margin-left: 25px;
+    font-weight: normal;
+}
+.dot1{
+    width: 20px;
+    height: 20px;
+    fill: #bbc0ff;
+    margin-top: 28px;
+    margin-left: 140px;
+}
+
+.text4{
+    font-family: "Rubik", sans-serif;
+    color: white;
+    font-weight: lighter;
+    font-size: 50px;
+    margin-left: 25px;
+    margin-top: 5px;
+}
+
+.text5{
+    font-family: "Rubik", sans-serif;
+    color: #bbc0ff;
+    font-weight: lighter;
+    margin-left: 25px;
+    font-size: 12px;
+}
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+
+.son2{
+    width:250px;
+    height: 190px;
+    background-image: linear-gradient(to bottom , #56c2e6 , #1c1f4a );
+    margin-left: 30px;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+.icon2{
+    width: 80px;
+    height: 80px;
+    rotate: 50deg;
+    position: absolute;
+    top: -5px;
+    right: 25px;
+    fill: #3f9cbb;
+}
+.son22{
+    width:250px;
+    height: 145px;
+    position: absolute;
+    bottom: 0;
+    background-color: #1c1f4a;
+    border-radius: 13px;
+}
+.son22:hover{
+    background-color: #33387a;
+}
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+.son3{
+    width:250px;
+    height: 190px;
+    background-image: linear-gradient(to bottom , #ff5c7c , #1c1f4a );
+    margin-left: 30px;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+.icon3{
+    width: 80px;
+    height: 80px;
+    rotate: 50deg;
+    position: absolute;
+    top: -5px;
+    right: 25px;
+    fill: #f04667;
+}
+.son33{
+    width:250px;
+    height: 145px;
+    position: absolute;
+    bottom: 0;
+    background-color: #1c1f4a;
+    border-radius: 13px;
+}
+.son33:hover{
+    background-color: #33387a;
+}
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+.soon2{
+    display: flex;
+}
+
+.son4{
+    width:250px;
+    height: 190px;
+    background-image: linear-gradient(to bottom , #4acf81 , #1c1f4a );
+    margin-top: 18px;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+.icon4{
+    width: 80px;
+    height: 80px;
+    rotate: 50deg;
+    position: absolute;
+    top: -5px;
+    right: 25px;
+    fill: #29ba66;
+}
+.son44{
+    width:250px;
+    height: 145px;
+    position: absolute;
+    bottom: 0;
+    background-color: #1c1f4a;
+    border-radius: 13px;
+}
+.son44:hover{
+    background-color: #33387a;
+}
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+
+.son5{
+    width:250px;
+    height: 190px;
+    background-image: linear-gradient(to bottom , #7536d3 , #1c1f4a );
+    margin-left: 30px;
+    margin-top: 18px;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+.icon5{
+    width: 80px;
+    height: 80px;
+    rotate: 50deg;
+    position: absolute;
+    top: -5px;
+    right: 25px;
+    fill: #5a1cbb;
+}
+.son55{
+    width:250px;
+    height: 145px;
+    position: absolute;
+    bottom: 0;
+    background-color: #1c1f4a;
+    border-radius: 13px;
+}
+.son55:hover{
+    background-color: #33387a;
+}
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+
+.son6{
+    width:250px;
+    height: 190px;
+    background-image: linear-gradient(to bottom , #f1c65b , #1c1f4a );
+    margin-left: 30px;
+    margin-top: 18px;
+    border-radius: 15px 15px 25px 25px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.icon6{
+    width: 80px;
+    height: 80px;
+    rotate: 50deg;
+    position: absolute;
+    top: -5px;
+    right: 25px;
+    fill: #e6a532;
+}
+.son66{
+    width:250px;
+    height: 145px;
+    position: absolute;
+    bottom: 0;
+    background-color: #1c1f4a;
+    border-radius: 13px;
+}
+.son66:hover{
+    background-color: #33387a;
+}
+
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+@media  ( max-width : 900px ){
+    
+    body{
+        display: block;
+    }
+
+    .father{
+        width: 98%;
+        height: 180px;
+        background-color: #1c1f4a;
+        border-radius: 15px;
+        margin-top: 1% ;
+        margin-left: 1%;
+        position: relative;
+    }
+    
+    .son{
+        width: 100%;
+        height: 100px;
+        background-color: #5847eb;
+        border-radius: 15px;
+    }
+    
+    .photo1{
+        width: 80px;
+        height: 80px;
+        margin-top: 10px;
+        margin-left: 30%;
+        justify-content: center;
+        border: 1px solid white;
+        border-radius: 120px;
+    }
+    
+    .text1{
+        margin-left: 41%;
+        margin-top: 15px;
+        color: rgb(255, 255, 255);
+        font-size:x-large;
+        font-family: "Rubik", sans-serif;
+        position: absolute;
+        top: 0;
+    }
+    
+    .text2{
+        margin-left: 41%;
+        margin-top: 50px;
+        color: white;
+        font-family: "Rubik", sans-serif;
+        font-weight: 200;
+        font-size: 30px;
+        position: absolute;
+        top: 0;
+    }
+
+    ul{
+        margin-left: 33%;
+    }
+    li{
+        display: inline;
+        position: relative;
+        top: 25px;
+    }
+    .link1{
+        margin-left: 15px;
+        text-decoration: none;
+        color: gray;
+        font-family: "Rubik", sans-serif;
+        font-size: x-large;
+    }
+    .link1:hover{
+        color: white;
+    }
+
+/* ************************************************************************************************ */
+
+    .father2{
+        /* width: 97%; */
+        height: 300px;
+        margin-top: 10px ;
+        margin-left: 13px;
+    }
+
+    .soon{
+        display: flex;
+    }
+
+    .son1{
+        width:250px;
+        height: 190px;
+        background-image: linear-gradient(to bottom , #ff8c66 , #1c1f4a );
+        border-radius: 15px;
+        overflow: hidden;
+        position: relative;
+        cursor: pointer;
+    }
+    .icon1{
+        width: 80px;
+        height: 80px;
+        rotate: 50deg;
+        position: absolute;
+        top: -5px;
+        right: 25px;
+        fill: #d96c47;
+    }
+    .son11{
+        width:250px;
+        height: 145px;
+        position: absolute;
+        bottom: 0;
+        background-color: #1c1f4a;
+        border-radius: 13px;
+    }
+    .son11:hover{
+        background-color: #33387a;
+    }
+    
+    .text3{
+        font-family: "Rubik", sans-serif;
+        color: white;
+        font-size: large;
+        margin-top: 25px;
+        margin-left: 25px;
+        font-weight: normal;
+    }
+    .dot1{
+        width: 20px;
+        height: 20px;
+        fill: #bbc0ff;
+        margin-top: 28px;
+        margin-left: 140px;
+    }
+    
+    .text4{
+        font-family: "Rubik", sans-serif;
+        color: white;
+        font-weight: lighter;
+        font-size: 50px;
+        margin-left: 25px;
+        margin-top: 5px;
+    }
+    
+    .text5{
+        font-family: "Rubik", sans-serif;
+        color: #bbc0ff;
+        font-weight: lighter;
+        margin-left: 25px;
+        font-size: 12px;
+    }
+    
+    /* ---------------------------------------------------------------------------------------------------------- */
+    
+    
+    .son2{
+        width:250px;
+        height: 190px;
+        background-image: linear-gradient(to bottom , #56c2e6 , #1c1f4a );
+        margin-left: 30px;
+        border-radius: 15px;
+        overflow: hidden;
+        position: relative;
+        cursor: pointer;
+    }
+    .icon2{
+        width: 80px;
+        height: 80px;
+        rotate: 50deg;
+        position: absolute;
+        top: -5px;
+        right: 25px;
+        fill: #3f9cbb;
+    }
+    .son22{
+        width:250px;
+        height: 145px;
+        position: absolute;
+        bottom: 0;
+        background-color: #1c1f4a;
+        border-radius: 13px;
+    }
+    .son22:hover{
+        background-color: #33387a;
+    }
+    
+    /* ---------------------------------------------------------------------------------------------------------- */
+    
+    .son3{
+        width:250px;
+        height: 190px;
+        background-image: linear-gradient(to bottom , #ff5c7c , #1c1f4a );
+        margin-left: 30px;
+        border-radius: 15px;
+        overflow: hidden;
+        position: relative;
+        cursor: pointer;
+    }
+    .icon3{
+        width: 80px;
+        height: 80px;
+        rotate: 50deg;
+        position: absolute;
+        top: -5px;
+        right: 25px;
+        fill: #f04667;
+    }
+    .son33{
+        width:250px;
+        height: 145px;
+        position: absolute;
+        bottom: 0;
+        background-color: #1c1f4a;
+        border-radius: 13px;
+    }
+    .son33:hover{
+        background-color: #33387a;
+    }
+    
+    /* ---------------------------------------------------------------------------------------------------------- */
+    
+    .soon2{
+        display: flex;
+    }
+    
+    .son4{
+        width:250px;
+        height: 190px;
+        background-image: linear-gradient(to bottom , #4acf81 , #1c1f4a );
+        margin-top: 18px;
+        border-radius: 15px;
+        overflow: hidden;
+        position: relative;
+        cursor: pointer;
+    }
+    .icon4{
+        width: 80px;
+        height: 80px;
+        rotate: 50deg;
+        position: absolute;
+        top: -5px;
+        right: 25px;
+        fill: #29ba66;
+    }
+    .son44{
+        width:250px;
+        height: 145px;
+        position: absolute;
+        bottom: 0;
+        background-color: #1c1f4a;
+        border-radius: 13px;
+    }
+    .son44:hover{
+        background-color: #33387a;
+    }
+    
+    /* ---------------------------------------------------------------------------------------------------------- */
+    
+    
+    .son5{
+        width:250px;
+        height: 190px;
+        background-image: linear-gradient(to bottom , #7536d3 , #1c1f4a );
+        margin-left: 30px;
+        margin-top: 18px;
+        border-radius: 15px;
+        overflow: hidden;
+        position: relative;
+        cursor: pointer;
+    }
+    .icon5{
+        width: 80px;
+        height: 80px;
+        rotate: 50deg;
+        position: absolute;
+        top: -5px;
+        right: 25px;
+        fill: #5a1cbb;
+    }
+    .son55{
+        width:250px;
+        height: 145px;
+        position: absolute;
+        bottom: 0;
+        background-color: #1c1f4a;
+        border-radius: 13px;
+    }
+    .son55:hover{
+        background-color: #33387a;
+    }
+    
+    /* ---------------------------------------------------------------------------------------------------------- */
+    
+    
+    .son6{
+        width:250px;
+        height: 190px;
+        background-image: linear-gradient(to bottom , #f1c65b , #1c1f4a );
+        margin-left: 30px;
+        margin-top: 18px;
+        border-radius: 15px 15px 25px 25px;
+        position: relative;
+        overflow: hidden;
+        cursor: pointer;
+    }
+    .icon6{
+        width: 80px;
+        height: 80px;
+        rotate: 50deg;
+        position: absolute;
+        top: -5px;
+        right: 25px;
+        fill: #e6a532;
+    }
+    .son66{
+        width:250px;
+        height: 145px;
+        position: absolute;
+        bottom: 0;
+        background-color: #1c1f4a;
+        border-radius: 13px;
+    }
+    .son66:hover{
+        background-color: #33387a;
+    }
+} 
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+@media  ( max-width : 600px ) {
+    .father{
+        width: 98%;
+        height: 180px;
+        background-color: #1c1f4a;
+        border-radius: 15px;
+        margin-top: 1% ;
+        margin-left: 1%;
+        position: relative;
+    }
+    
+    .son{
+        width: 100%;
+        height: 100px;
+        background-color: #5847eb;
+        border-radius: 15px;
+    }
+    
+    .photo1{
+        width: 80px;
+        height: 80px;
+        margin-top: 10px;
+        margin-left: 19%;
+        justify-content: center;
+        border: 1px solid white;
+        border-radius: 120px;
+    }
+
+    .text1{
+        margin-left: 37%;
+        margin-top: 15px;
+        color: rgb(255, 255, 255);
+        font-size:x-large;
+        font-family: "Rubik", sans-serif;
+        position: absolute;
+        top: 0;
+    }
+    
+    .text2{
+        margin-left: 37%;
+        margin-top: 50px;
+        color: white;
+        font-family: "Rubik", sans-serif;
+        font-weight: 200;
+        font-size: 30px;
+        position: absolute;
+        top: 0;
+    }
+
+    ul{
+        margin-left: 20%;
+    }
+    li{
+        display: inline;
+        position: relative;
+        top: 25px;
+    }
+    .link1{
+        margin-left: 15px;
+        text-decoration: none;
+        color: gray;
+        font-family: "Rubik", sans-serif;
+        font-size: x-large;
+    }
+    .link1:hover{
+        color: white;
+    }
+
+    /* ************************************************************************************************ */
+
+    .father2{
+        width: 95%;
+        height: 700px;
+        margin-top: 10px ;
+        margin-left: 5px;
+    }
+    
+    .soon{
+        display: block;
+    }
+
+    .son1{
+        width:473px;
+        height: 160px;
+        background-image: linear-gradient(to bottom , #ff8c66 , #1c1f4a );
+        border-radius: 15px;
+        overflow: hidden;
+        position: relative;
+        cursor: pointer;
+    }
+    .icon1{
+        width: 80px;
+        height: 80px;
+        rotate: 50deg;
+        position: absolute;
+        top: -5px;
+        right: 25px;
+        fill: #d96c47;
+    }
+    .son11{
+        width:473px;
+        height: 120px;
+        position: absolute;
+        bottom: 0;
+        background-color: #1c1f4a;
+        border-radius: 13px;
+    }
+    .son11:hover{
+        background-color: #33387a;
+    }
+    
+    .text3{
+        font-family: "Rubik", sans-serif;
+        color: white;
+        font-size: large;
+        margin-top: 25px;
+        margin-left: 25px;
+        font-weight: normal;
+    }
+    .dot1{
+        width: 20px;
+        height: 20px;
+        fill: #bbc0ff;
+        margin-top: 28px;
+        margin-left: 370px;
+    }
+    
+    .text4{
+        font-family: "Rubik", sans-serif;
+        color: white;
+        font-weight: lighter;
+        font-size: 50px;
+        margin-left: 25px;
+        margin-top: 5px;
+    }
+    
+    .text5{
+        font-family: "Rubik", sans-serif;
+        color: #bbc0ff;
+        font-weight: lighter;
+        margin-left: 360px;
+        font-size: 12px;
+        margin-top: -25px;
+    }
+    
+    /* ---------------------------------------------------------------------------------------------------------- */
+    
+    
+    .son2{
+        width:473px;
+        height: 160px;
+        background-image: linear-gradient(to bottom , #56c2e6 , #1c1f4a );
+        margin-top: 10px ;
+        margin-left: 1px;
+        border-radius: 15px;
+        overflow: hidden;
+        position: relative;
+        cursor: pointer;
+    }
+    .icon2{
+        width: 80px;
+        height: 80px;
+        rotate: 50deg;
+        position: absolute;
+        top: -5px;
+        right: 25px;
+        fill: #3f9cbb;
+    }
+    .son22{
+        width:473px;
+        height: 120px;
+        position: absolute;
+        bottom: 0;
+        background-color: #1c1f4a;
+        border-radius: 13px;
+    }
+    .son22:hover{
+        background-color: #33387a;
+    }
+    
+    /* ---------------------------------------------------------------------------------------------------------- */
+    
+    .son3{
+        width:473px;
+        height: 160px;
+        background-image: linear-gradient(to bottom , #ff5c7c , #1c1f4a );
+        margin-left: 1px;
+        margin-top: 10px;
+        border-radius: 15px;
+        overflow: hidden;
+        position: relative;
+        cursor: pointer;
+    }
+    .icon3{
+        width: 80px;
+        height: 80px;
+        rotate: 50deg;
+        position: absolute;
+        top: -5px;
+        right: 25px;
+        fill: #f04667;
+    }
+    .son33{
+        width:473px;
+        height: 120px;
+        position: absolute;
+        bottom: 0;
+        background-color: #1c1f4a;
+        border-radius: 13px;
+    }
+    .son33:hover{
+        background-color: #33387a;
+    }
+    
+    /* ---------------------------------------------------------------------------------------------------------- */
+    
+    .soon2{
+        display: block;
+    }
+    
+    .son4{
+        width:473px;
+        height: 160px;
+        background-image: linear-gradient(to bottom , #4acf81 , #1c1f4a );
+        margin-top: 10px;
+        border-radius: 15px;
+        overflow: hidden;
+        position: relative;
+        cursor: pointer;
+    }
+    .icon4{
+        width: 80px;
+        height: 80px;
+        rotate: 50deg;
+        position: absolute;
+        top: -5px;
+        right: 25px;
+        fill: #29ba66;
+    }
+    .son44{
+        width:473px;
+        height: 120px;
+        position: absolute;
+        bottom: 0;
+        background-color: #1c1f4a;
+        border-radius: 13px;
+    }
+    .son44:hover{
+        background-color: #33387a;
+    }
+    
+    /* ---------------------------------------------------------------------------------------------------------- */
+    
+    
+    .son5{
+        width:473px;
+        height: 160px;
+        background-image: linear-gradient(to bottom , #7536d3 , #1c1f4a );
+        margin-left: 1px;
+        margin-top: 10px;
+        border-radius: 15px;
+        overflow: hidden;
+        position: relative;
+        cursor: pointer;
+    }
+    .icon5{
+        width: 80px;
+        height: 80px;
+        rotate: 50deg;
+        position: absolute;
+        top: -5px;
+        right: 25px;
+        fill: #5a1cbb;
+    }
+    .son55{
+        width:473px;
+        height: 120px;
+        position: absolute;
+        bottom: 0;
+        background-color: #1c1f4a;
+        border-radius: 13px;
+    }
+    .son55:hover{
+        background-color: #33387a;
+    }
+    
+    /* ---------------------------------------------------------------------------------------------------------- */
+    
+    
+    .son6{
+        width:473px;
+        height: 160px;
+        background-image: linear-gradient(to bottom , #f1c65b , #1c1f4a );
+        margin-left: 1px;
+        margin-top: 10px;
+        border-radius: 15px 15px 25px 25px;
+        position: relative;
+        overflow: hidden;
+        cursor: pointer;
+    }
+    .icon6{
+        width: 80px;
+        height: 80px;
+        rotate: 50deg;
+        position: absolute;
+        top: -5px;
+        right: 25px;
+        fill: #e6a532;
+    }
+    .son66{
+        width:473px;
+        height: 120px;
+        position: absolute;
+        bottom: 0;
+        background-color: #1c1f4a;
+        border-radius: 13px;
+    }
+    .son66:hover{
+        background-color: #33387a;
+    }
+
+    
+}
